@@ -1,11 +1,3 @@
-console.log("dom.js");
-
-// Variable to hold the final price. Default to 0.
-var finalSandwichPrice = 0;
-
-// Variable to hold topping that the user selects
-var selectedTopping;
-
 // elements
 var bread = document.getElementById("bread");
 var meat = document.getElementById("meat");
