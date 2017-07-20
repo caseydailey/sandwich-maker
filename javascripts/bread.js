@@ -15,7 +15,7 @@ var SandwichMaker = (function(maker) {
     console.log("e.currentTarget.value: ", e.currentTarget.value);
     let choice = e.currentTarget.value;
     let breadPrice = breadPrices[choice];
-    SandwichMaker.addTopping(breadPrice);
+    SandwichMaker.addTopping(breadPrice, choice);
   };
 
   // Return the new, augmented object with the new method on it

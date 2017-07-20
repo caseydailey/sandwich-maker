@@ -12,11 +12,12 @@ var SandwichMaker = (function(maker) {
 
   // Augment the original object with another method
   maker.addCheese = function(e) {
-    let choice = e.currentTarget.value;
+    let choice = e.target.value;
     let cheesePrice = cheesePrices[choice];
-    SandwichMaker.addTopping(cheesePrice);
+    SandwichMaker.addTopping(cheesePrice, choice);
   };
 
   // Return the new, augmented object with the new method on it
   return maker;
+  
 })(SandwichMaker || {});

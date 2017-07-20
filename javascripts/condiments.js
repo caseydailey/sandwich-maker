@@ -13,9 +13,9 @@ var SandwichMaker = (function(maker) {
 
   // Augment the original object with another method
   maker.addCondiments = function(e) {
-    let choice = e.currentTarget.value;
+    let choice = e.target.value;
     let condimentsPrice = condimentsPrices[choice];
-    SandwichMaker.addTopping(condimentsPrice);
+    SandwichMaker.addTopping(condimentsPrice, choice);
     
   };
 
