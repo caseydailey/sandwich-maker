@@ -12,11 +12,13 @@ var SandwichMaker = (function( maker) {
     maker.addTopping = function(toppingPrice, topping) {
       sandwich.totalPrice += toppingPrice;
       sandwich.ingredients.push(topping);
-      console.log("totalPrice: ", sandwich.totalPrice);
-      console.log("ingredients: ", sandwich.ingredients);
-      console.log("sandwich: ", sandwich );
     }
 
- return maker
+    maker.printSandwichInfo = function(){
+        sandwich.ingredients.forEach((ingredient)=>ingredients.innerHTML += `<li>${ingredient}</li>`);
+        price.innerHTML = `<p>$${sandwich.totalPrice.toFixed(2)}</p>`;
+    }
+
+ return maker;
 
 })(SandwichMaker || {});
