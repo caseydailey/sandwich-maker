@@ -1,4 +1,3 @@
-console.log("veggies.js");
 
 // This SandwichMaker IIFE augments the original one
 var SandwichMaker = (function(maker) {

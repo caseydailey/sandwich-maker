@@ -1,4 +1,3 @@
-console.log("condiments.js");
 
 // This SandwichMaker IIFE augments the original one
 var SandwichMaker = (function(maker) {

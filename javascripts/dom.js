@@ -1,4 +1,3 @@
-console.log("dom.js");
 
 // Variable to hold the final price. Default to 0.
 var finalSandwichPrice = 0;

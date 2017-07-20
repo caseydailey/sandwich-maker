@@ -1,13 +1,11 @@
-console.log("SandwichMaker.js");
 
-var SandwichMaker = (function( maker) {
+var SandwichMaker = (function(maker) {
 
-  var sandwich = {
-    totalPrice: 0,
-    ingredients: []
-  };
-
-  // Return the public interface that other code can interact with
+    var sandwich = {
+        
+        totalPrice: 0,
+        ingredients: []
+    };
   
     maker.addTopping = function(toppingPrice, topping) {
       sandwich.totalPrice += toppingPrice;

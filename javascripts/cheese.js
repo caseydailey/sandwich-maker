@@ -1,4 +1,3 @@
-console.log("cheese.js");
 
 // This SandwichMaker IIFE augments the original one
 var SandwichMaker = (function(maker) {
@@ -19,5 +18,5 @@ var SandwichMaker = (function(maker) {
 
   // Return the new, augmented object with the new method on it
   return maker;
-  
+
 })(SandwichMaker || {});
