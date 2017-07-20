@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sandwich-Maker</title>
+</head>
+<body>
+    
+    <section>
+    
+        <h2>Bread</h2>
+        <select id="bread">
+            <option value="select a bread">select a bread</option>
+            <option value="white">white</option>
+            <option value="wheat">wheat</option>
+            <option value="italian">italian</option>
+        </select>
+
+    </section>
+    <section>
+
+        <h2>Meat</h2>
+        <form action="" id="meat">
+            <input type="checkbox" value="ham">ham<br>
+            <input type="checkbox" value="turkey">turkey<br>    
+            <input type="checkbox" value="bacon">bacon<br>
+        </form>
+
+    </section>
+    <section>
+
+        <h2>Cheese</h2>
+        <form action="" id="cheese">
+            <input type="checkbox" value="swiss">swiss<br>
+            <input type="checkbox" value="cheddar">cheddar<br>    
+            <input type="checkbox" value="american">american<br>
+        </form>
+
+
+    </section>
+    <section>
+
+        <h2>Veggies</h2>
+        <form action="" id="veggies">
+            <input type="checkbox" value="lettuce">lettuce<br>
+            <input type="checkbox" value="tomato">tomato<br>    
+            <input type="checkbox" value="onion">onion<br>
+        </form>
+
+
+    </section>
+    <section>
+
+        <h2>Condiments</h2>
+        <form action="" id="condiments">
+            <input type="checkbox" value="mustard">mustard<br>
+            <input type="checkbox" value="mayo">mayo<br>    
+            <input type="checkbox" value="kraut">kraut<br>
+        </form>
+
+
+    </section>
+
+    <br>
+    <br>
+
+    <button  type="button" id="total">GET TOTAL</button>
+
+    <section>
+        <h1>Ingredients:</h1>
+        <ul id="ingredients"></ul>
+    </section>
+    <section>
+        <h1>Total Price:</h1>
+        <div id="price"></div>
+    </section>
+
+    
+
+
+<script src="javascripts/bread.js"></script>    
+<script src="javascripts/meat.js"></script>    
+<script src="javascripts/cheese.js"></script>    
+<script src="javascripts/veggies.js"></script>    
+<script src="javascripts/condiments.js"></script>    
+<script src="javascripts/SandwichMaker.js"></script> 
+<script src="javascripts/dom.js"></script>    
+</body>
+</html>
